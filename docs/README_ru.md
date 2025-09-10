@@ -30,7 +30,7 @@ $ python -m pip install solobot-web-api
 
 ## Примеры
 
-Вы можете найти примеры схем в документации: https://pocomacho.ru/solonetbot/api/swagger
+Вы можете найти примеры схем в документации: https://pocomacho.ru/solonetbot/api/openapi.json
 
 **Выдать лицензию пользователю:**
 

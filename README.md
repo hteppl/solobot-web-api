@@ -34,7 +34,7 @@ API reference and official docs: https://pocomacho.ru/solonetbot/api/swagger
 
 ## Usage Examples
 
-You can find a raw scheme example in the docs: https://pocomacho.ru/solonetbot/api/swagger
+You can find a raw scheme example in the docs: https://pocomacho.ru/solonetbot/api/openapi.json
 
 **Grant a license to a user:**
 
