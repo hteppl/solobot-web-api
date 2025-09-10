@@ -26,9 +26,9 @@ class BaseLicenseResponse:
     module: str
     ok: bool
     user_id: int
-    is_active: bool
-    expiry_date: Optional[str]
-    updated_at: Optional[str]
+    is_active: Optional[bool] = None
+    expiry_date: Optional[str] = None
+    updated_at: Optional[str] = None
 
 
 @dataclass
@@ -46,7 +46,7 @@ class GrantLicenseResponse(BaseLicenseResponse):
 @dataclass
 class RevokeLicenseResponse(BaseLicenseResponse):
     """Response for revoking a license."""
-    pass
+    message: Optional[str] = None
 
 
 LicenseResponse = Union[CheckLicenseResponse, GrantLicenseResponse, RevokeLicenseResponse]
