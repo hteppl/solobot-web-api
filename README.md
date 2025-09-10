@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://pocomacho.ru/static/images/bot_mobile.png" alt="logo-main" height="500">
+  <img src="https://pocomacho.ru/static/images/bot_mobile.png" alt="logo-main" height="400">
 </p>
+
+# solobot-web-api
 
 [![LICENSE](https://img.shields.io/pypi/l/solobot-web-api)](LICENSE)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/aiohttp.svg)](https://pypi.org/project/solobot-web-api)
